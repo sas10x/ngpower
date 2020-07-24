@@ -1,22 +1,22 @@
 import { Component, NgModule, OnInit } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
-import { multi } from './data';
-import { DataService } from './data.service';
-import { Client } from './model/Client';
-import { Datu } from './model/Datu';
 import { map } from 'rxjs/operators';
+import { Client } from '../model/Client';
+import { DataService } from '../data.service';
+import { multi } from '../linedata';
+
 
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-line-time',
+  templateUrl: './line-time.component.html',
+  styleUrls: ['./line-time.component.css']
 })
-export class AppComponent {
-  title = 'ng9';
+export class LineTimeComponent implements OnInit {
+
   multi: any[];
-  // view: any[] = [100, 100];
+  view: any[] = [1024, 720];
   clients: Client[] = [];
   datus: any[];
   listahan: any[];
@@ -29,7 +29,7 @@ export class AppComponent {
   yAxis: boolean = true;
   showYAxisLabel: boolean = true;
   showXAxisLabel: boolean = true;
-  xAxisLabel: string = 'Year';
+  xAxisLabel: string = 'Date';
   yAxisLabel: string = 'Population';
   timeline: boolean = true;
 
@@ -42,7 +42,7 @@ export class AppComponent {
   }
 
   ngOnInit() {
-    // this.getSuway();
+    this.getSuway();
   }
   getClients() {
     this.dataService.getClients().subscribe((response: any) => {
@@ -96,4 +96,5 @@ export class AppComponent {
       }
     ];
   }
+
 }

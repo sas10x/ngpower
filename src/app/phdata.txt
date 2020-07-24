@@ -1,0 +1,481 @@
+export var single = [
+    {
+      "City": "Abra",
+      
+      "Confirmed": 3,
+      "Recovered": 1,
+      "Deaths": 0
+    },
+    {
+      "City": "Agusan del Norte",
+      
+      "Confirmed": 1,
+      "Recovered": 0,
+      "Deaths": 0
+    },
+    {
+      "City": "Aklan",
+      
+      "Confirmed": 7,
+      "Recovered": 0,
+      "Deaths": 0
+    },
+    {
+      "City": "Albay",
+      
+      "Confirmed": 11,
+      "Recovered": 0,
+      "Deaths": 0
+    },
+    {
+      "City": "Antique",
+      
+      "Confirmed": 1,
+      "Recovered": 0,
+      "Deaths": 0
+    },
+    {
+      "City": "Bataan",
+      
+      "Confirmed": 35,
+      "Recovered": 1,
+      "Deaths": 2
+    },
+    {
+      "City": "Batangas",
+      
+      "Confirmed": 73,
+      "Recovered": 11,
+      "Deaths": 13
+    },
+    {
+      "City": "Benquet",
+      
+      "Confirmed": 19,
+      "Recovered": 1,
+      "Deaths": 1
+    },
+    {
+      "City": "Bukidnon",
+      
+      "Confirmed": 1,
+      "Recovered": 0,
+      "Deaths": 0
+    },
+    {
+      "City": "Bulacan",
+      
+      "Confirmed": 92,
+      "Recovered": 4,
+      "Deaths": 15
+    },
+    {
+      "City": "Cagayan",
+      
+      "Confirmed": 14,
+      "Recovered": 7,
+      "Deaths": 0
+    },
+    {
+      "City": "Caloocan City",
+      
+      "Confirmed": 110,
+      "Recovered": 2,
+      "Deaths": 11
+    },
+    {
+      "City": "Camarines Sur",
+      
+      "Confirmed": 8,
+      "Recovered": 1,
+      "Deaths": 0
+    },
+    {
+      "City": "Camiguin",
+      
+      "Confirmed": 1,
+      "Recovered": 0,
+      "Deaths": 0
+    },
+    {
+      "City": "Capiz",
+      
+      "Confirmed": 4,
+      "Recovered": 1,
+      "Deaths": 1
+    },
+    {
+      "City": "Catanduanes",
+      
+      "Confirmed": 1,
+      "Recovered": 0,
+      "Deaths": 0
+    },
+    {
+      "City": "Cavite",
+      
+      "Confirmed": 176,
+      "Recovered": 3,
+      "Deaths": 17
+    },
+    {
+      "City": "Cebu",
+      
+      "Confirmed": 35,
+      "Recovered": 0,
+      "Deaths": 6
+    },
+    {
+      "City": "City of Las Pinas",
+      
+      "Confirmed": 106,
+      "Recovered": 4,
+      "Deaths": 3
+    },
+    {
+      "City": "City of Makati",
+      
+      "Confirmed": 296,
+      "Recovered": 21,
+      "Deaths": 7
+    },
+    {
+      "City": "City of Malabon",
+      
+      "Confirmed": 23,
+      "Recovered": 0,
+      "Deaths": 0
+    },
+    {
+      "City": "City of Mandaluyong",
+      
+      "Confirmed": 253,
+      "Recovered": 7,
+      "Deaths": 6
+    },
+    {
+      "City": "City of Manila",
+      
+      "Confirmed": 443,
+      "Recovered": 10,
+      "Deaths": 24
+    },
+    {
+      "City": "City of Marikina",
+      
+      "Confirmed": 99,
+      "Recovered": 5,
+      "Deaths": 8
+    },
+    {
+      "City": "City of Muntinlupa",
+      
+      "Confirmed": 108,
+      "Recovered": 0,
+      "Deaths": 8
+    },
+    {
+      "City": "City of Navotas",
+      
+      "Confirmed": 17,
+      "Recovered": 0,
+      "Deaths": 2
+    },
+    {
+      "City": "City of Paranaque",
+      
+      "Confirmed": 276,
+      "Recovered": 6,
+      "Deaths": 12
+    },
+    {
+      "City": "City of Pasig",
+      
+      "Confirmed": 215,
+      "Recovered": 16,
+      "Deaths": 20
+    },
+    {
+      "City": "City of San Juan",
+      
+      "Confirmed": 174,
+      "Recovered": 13,
+      "Deaths": 11
+    },
+    {
+      "City": "City of Valenzuela",
+      
+      "Confirmed": 51,
+      "Recovered": 0,
+      "Deaths": 2
+    },
+    {
+      "City": "Compostela Valley",
+      
+      "Confirmed": 2,
+      "Recovered": 1,
+      "Deaths": 0
+    },
+    {
+      "City": "Cotabato (North Cotabato)",
+      
+      "Confirmed": 3,
+      "Recovered": 0,
+      "Deaths": 0
+    },
+    {
+      "City": "Cotabato City",
+      
+      "Confirmed": 6,
+      "Recovered": 2,
+      "Deaths": 0
+    },
+    {
+      "City": "Davai del Norte",
+      
+      "Confirmed": 11,
+      "Recovered": 0,
+      "Deaths": 0
+    },
+    {
+      "City": "Davao del Sur",
+      
+      "Confirmed": 76,
+      "Recovered": 35,
+      "Deaths": 14
+    },
+    {
+      "City": "Davao Oriental",
+      
+      "Confirmed": 3,
+      "Recovered": 0,
+      "Deaths": 0
+    },
+    {
+      "City": "Ilocos Norte",
+      
+      "Confirmed": 3,
+      "Recovered": 0,
+      "Deaths": 0
+    },
+    {
+      "City": "Ilocos Sur",
+      
+      "Confirmed": 1,
+      "Recovered": 0,
+      "Deaths": 0
+    },
+    {
+      "City": "Iloilo",
+      
+      "Confirmed": 20,
+      "Recovered": 2,
+      "Deaths": 5
+    },
+    {
+      "City": "Isabela",
+      
+      "Confirmed": 9,
+      "Recovered": 1,
+      "Deaths": 0
+    },
+    {
+      "City": "La Union",
+      
+      "Confirmed": 13,
+      "Recovered": 0,
+      "Deaths": 3
+    },
+    {
+      "City": "Laguna",
+      
+      "Confirmed": 201,
+      "Recovered": 4,
+      "Deaths": 6
+    },
+    {
+      "City": "Lanao del Norte",
+      
+      "Confirmed": 6,
+      "Recovered": 0,
+      "Deaths": 2
+    },
+    {
+      "City": "Lanao del Sur",
+      
+      "Confirmed": 7,
+      "Recovered": 0,
+      "Deaths": 3
+    },
+    {
+      "City": "Maguindanao",
+      
+      "Confirmed": 1,
+      "Recovered": 0,
+      "Deaths": 0
+    },
+    {
+      "City": "Marinduque",
+      
+      "Confirmed": 4,
+      "Recovered": 1,
+      "Deaths": 0
+    },
+    {
+      "City": "Misamis Occidental",
+      
+      "Confirmed": 2,
+      "Recovered": 0,
+      "Deaths": 0
+    },
+    {
+      "City": "Negros Occidental",
+      
+      "Confirmed": 10,
+      "Recovered": 2,
+      "Deaths": 1
+    },
+    {
+      "City": "Negros Oriental",
+      
+      "Confirmed": 7,
+      "Recovered": 2,
+      "Deaths": 3
+    },
+    {
+      "City": "Nueva Ecija",
+      
+      "Confirmed": 42,
+      "Recovered": 1,
+      "Deaths": 0
+    },
+    {
+      "City": "Nueva Vizcaya",
+      
+      "Confirmed": 5,
+      "Recovered": 2,
+      "Deaths": 1
+    },
+    {
+      "City": "Occidental Mindoro",
+      
+      "Confirmed": 3,
+      "Recovered": 0,
+      "Deaths": 2
+    },
+    {
+      "City": "Oriental Mindoro",
+      
+      "Confirmed": 6,
+      "Recovered": 1,
+      "Deaths": 0
+    },
+    {
+      "City": "Pampanga",
+      
+      "Confirmed": 46,
+      "Recovered": 0,
+      "Deaths": 5
+    },
+    {
+      "City": "Pangasinan",
+      
+      "Confirmed": 32,
+      "Recovered": 0,
+      "Deaths": 7
+    },
+    {
+      "City": "Pasay City",
+      
+      "Confirmed": 114,
+      "Recovered": 6,
+      "Deaths": 3
+    },
+    {
+      "City": "Pateros",
+      
+      "Confirmed": 19,
+      "Recovered": 1,
+      "Deaths": 0
+    },
+    {
+      "City": "Quezon",
+      
+      "Confirmed": 27,
+      "Recovered": 3,
+      "Deaths": 4
+    },
+    {
+      "City": "Quezon City",
+      
+      "Confirmed": 940,
+      "Recovered": 28,
+      "Deaths": 53
+    },
+    {
+      "City": "Rizal",
+      
+      "Confirmed": 270,
+      "Recovered": 8,
+      "Deaths": 19
+    },
+    {
+      "City": "Romblon",
+      
+      "Confirmed": 1,
+      "Recovered": 0,
+      "Deaths": 0
+    },
+    {
+      "City": "Samar",
+      
+      "Confirmed": 3,
+      "Recovered": 0,
+      "Deaths": 0
+    },
+    {
+      "City": "South Cotabato",
+      
+      "Confirmed": 4,
+      "Recovered": 0,
+      "Deaths": 0
+    },
+    {
+      "City": "Sultan Kudarat",
+      
+      "Confirmed": 3,
+      "Recovered": 0,
+      "Deaths": 1
+    },
+    {
+      "City": "Taguig City",
+      
+      "Confirmed": 182,
+      "Recovered": 12,
+      "Deaths": 5
+    },
+    {
+      "City": "Tarlac",
+      
+      "Confirmed": 25,
+      "Recovered": 6,
+      "Deaths": 1
+    },
+    {
+      "City": "Zambales",
+      
+      "Confirmed": 17,
+      "Recovered": 0,
+      "Deaths": 2
+    },
+    {
+      "City": "Zamboanga del Sur",
+      
+      "Confirmed": 10,
+      "Recovered": 0,
+      "Deaths": 0
+    }
+  ]
+
+
+  
